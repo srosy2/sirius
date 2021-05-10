@@ -1,0 +1,29 @@
+.container {
+    height: 100px;
+    width: 100%;
+
+}
+
+.navbar {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.logo {
+    height: 140px;
+}
+
+.label {
+    font-size: 20px;
+}

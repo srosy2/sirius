@@ -1,0 +1,19 @@
+.container {
+    margin-top: 50px;
+    height: min-content;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sign {
+    font-size: 30px;
+}
+
+.routes_container {
+    height: min-content;
+    margin-top: 30px;
+    width: 100%;
+}

@@ -1,0 +1,112 @@
+.container {
+    margin-top: 50px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_container {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph_container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.button_bar {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subbutton_bar {
+    width: 40%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+hr {
+    width: 100%;
+}
+
+.space {
+    height: 200px;
+}
+
+.loading {
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+button {
+    text-decoration: none;
+    font-family: sans-serif;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 2em;
+    background-color: #00a6ff;
+    color: #ffffff;
+    font-size: 13px;
+    outline: none;
+}
+
+input::-webkit-file-upload-button {
+    text-decoration: none;
+    font-family: sans-serif;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 2em;
+    background-color: #00a6ff;
+    color: #ffffff;
+    font-size: 13px;
+    outline: none;
+}
+
+.start_button {
+    margin-top: 25px;
+}
+
+.check {
+    margin-top: 25px;
+}
